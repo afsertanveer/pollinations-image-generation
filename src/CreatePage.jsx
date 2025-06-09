@@ -37,7 +37,7 @@ const CreatePage = ({ downloadedImages, setDownloadedImages,imageLinks,setImageL
     const imageUrls = [];
     const errorsArray = [];
 
-    for (let i = 0; i < 2; i++) {
+    for (let i = 0; i < 9; i++) {
       try {
         const seed = Math.floor(Math.random() * 1000000000);
         const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(
